@@ -1,4 +1,4 @@
-import { TiSocialGithub } from 'react-icons/ti'
+import { TiSocialGithub, TiSocialLinkedin } from 'react-icons/ti'
 
 export default function Footer() {
   return (
@@ -12,6 +12,14 @@ export default function Footer() {
           className="block text-4xl text-white transition-transform duration-300 hover:scale-125"
         >
           <TiSocialGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jack-ho-phd-511bb584/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block text-4xl text-white transition-transform duration-300 hover:scale-125"
+        >
+          <TiSocialLinkedin />
         </a>
       </div>
     </div>
