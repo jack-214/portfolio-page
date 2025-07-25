@@ -2,6 +2,8 @@ import Header from './Header'
 import Footer from './Footer'
 import HomePage from './HomePage'
 import ProjectGrid from './ProjectGrid'
+import ParticleBackground from './ParticleBackground'
+
 import PlantBaseThumbnail from '../assets/plant_base_thumbnail.png'
 import NorthcodersNewsThumbnail from '../assets/northcoders_thumbnail.png'
 
@@ -20,7 +22,8 @@ const projectList = [
 
 function App() {
   return (
-    <div className="flex-1 bg-orange-50 text-[#0b2131]">
+    <div className="relative min-h-screen flex-1 bg-orange-50 text-[#0b2131]">
+      <ParticleBackground />
       <Header />
       <HomePage />
       <ProjectGrid projectList={projectList} />

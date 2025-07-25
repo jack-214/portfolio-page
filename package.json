@@ -2,6 +2,7 @@
   "name": "reactjs-vite-tailwindcss-boilerplate",
   "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
+  "homepage": "https://jack-214.github.io/portfolio-page",
   "private": true,
   "type": "module",
   "author": {
@@ -20,7 +21,9 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "lint": "eslint src --max-warnings=0",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -47,6 +50,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.18.0",
+    "gh-pages": "^6.3.0",
     "happy-dom": "^15.11.7",
     "postcss": "^8.5.3",
     "prettier": "3.1.1",
