@@ -31,7 +31,7 @@ export default function ProjectGrid({ projectList }: ProjectGridProps) {
                 >
                   <div className="flex size-64 flex-col justify-center gap-6 rounded-3xl border-2 border-[#0b2131] bg-white p-4 text-center font-poppins text-[#0b2131]">
                     <img
-                      className="mb-1 mt-auto h-auto w-full object-contain"
+                      className="mb-1 mt-auto h-auto w-64 object-contain"
                       src={project.image}
                       alt={project.name}
                     />
