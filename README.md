@@ -64,14 +64,6 @@ The portfolio is fully responsive with breakpoints for:
 - Tablets (sm: 640px)
 - Desktops (md: 768px and up)
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
