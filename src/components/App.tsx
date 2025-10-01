@@ -1,12 +1,12 @@
-import Header from './Header'
+import ExhibitionCuratorThumbnail from '../assets/exhibition_curator_thumbnail.png'
+import LumoThumbnail from '../assets/lumo_thumbnail.png'
+import NorthcodersNewsThumbnail from '../assets/northcoders_thumbnail.png'
+import PlantBaseThumbnail from '../assets/plant_base_thumbnail.png'
 import Footer from './Footer'
+import Header from './Header'
 import HomePage from './HomePage'
 import ProjectGrid from './ProjectGrid'
 import { BackgroundBeams } from './ui/BackgroundBeams'
-
-import PlantBaseThumbnail from '../assets/plant_base_thumbnail.png'
-import NorthcodersNewsThumbnail from '../assets/northcoders_thumbnail.png'
-import LumoThumbnail from '../assets/lumo_thumbnail.png'
 
 const projectList = [
   {
@@ -53,6 +53,14 @@ const projectList = [
       'Vapi',
       'Supabase'
     ]
+  },
+  {
+    name: 'Curator',
+    link: 'https://github.com/jack-214/exhibition-curator',
+    image: ExhibitionCuratorThumbnail,
+    description:
+      'Next.js application that allows users to search for artworks from the Metropolitan Museum of Art and the Art Institute of Chicago, view detailed information about each artwork, and curate their own personal exhibitions.',
+    technologies: ['Next.js', 'React', 'TypeScript', 'TailwindCSS']
   }
 ]
 
